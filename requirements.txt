@@ -1,4 +1,1 @@
-streamlit
-pandas
-sklearn
-requests
+
