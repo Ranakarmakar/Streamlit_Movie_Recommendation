@@ -36,7 +36,7 @@ def fetch_poster(movie_id):
 list_of_all_titles = df['title'].tolist()
 ip1, ip2,ip3 = st.columns([1.8,4,2.2])
 with ip2:
-    movie_name = st.selectbox( list_of_all_titles,index=16)
+    movie_name = st.selectbox(" ",list_of_all_titles,index=16)
     if not movie_name:
         st.warning("Please Select any Movie")
         st.stop()
@@ -46,7 +46,7 @@ with ip2:
             t.sleep(2)
         # st.success('Recommendation Generated!')
 with ip1:
-    st.write(" ")
+    st.write("Select Your Favorite Movie : ")
 with ip3:
     st.write("")
 
