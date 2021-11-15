@@ -104,7 +104,7 @@ with col5:
     st.image(image_url[4])
 try :
     with col6:
-    st.image(image_url[5])
+        st.image(image_url[5])
 except IndexError:
     st.write("Not Found")
 n7, n8, n9, n10, n11, n12 = st.columns(6)
