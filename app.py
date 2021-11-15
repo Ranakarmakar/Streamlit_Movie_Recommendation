@@ -49,9 +49,12 @@ with ip1:
     st.write(" ")
     st.write(" ")
     st.write(" ")
-    st.write("Select Your Favorite Movie : ")
+    st.subheader("Select Your Favorite Movie : ")
 with ip3:
-    st.write("Cinema is the most beautiful fraud in the world")
+    st.write(" ")
+    st.write(" ")
+    st.write(" ")
+    st.markdown("Cinema is the most beautiful fraud in the world")
 
 # movie_name = st.text_input("Enter Any Movie Name : ", value="Avatar")
 find_close_match = difflib.get_close_matches(movie_name, list_of_all_titles)
