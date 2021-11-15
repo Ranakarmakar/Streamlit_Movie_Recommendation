@@ -46,6 +46,7 @@ with ip2:
             t.sleep(2)
         # st.success('Recommendation Generated!')
 with ip1:
+    st.write(" ")
     st.write("Select Your Favorite Movie : ")
 with ip3:
     st.write("")
