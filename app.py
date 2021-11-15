@@ -36,7 +36,7 @@ def fetch_poster(movie_id):
 list_of_all_titles = df['title'].tolist()
 ip1, ip2 = st.columns(2)
 with ip1:
-    movie_name = st.selectbox("Select Your Favorite Movie : ", list_of_all_titles)
+    movie_name = st.selectbox("Select Your Favorite Movie : ", list_of_all_titles,index=18)
     if not movie_name:
         st.warning("Please Select any Movie")
         st.stop()
