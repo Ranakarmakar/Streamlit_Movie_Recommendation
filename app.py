@@ -85,8 +85,11 @@ for movie in sorted_similar_movies:
         # st.write(fetch_poster(ids))
         # st.image(fetch_poster(ids))
         rec_ids.append(ids)
-for j in rec_ids:
-    image_url.append(fetch_poster(j[0]))
+try:
+    for j in rec_ids:
+        image_url.append(fetch_poster(j[0]))
+except IndexError:
+    st.write("Not Found")
 
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
