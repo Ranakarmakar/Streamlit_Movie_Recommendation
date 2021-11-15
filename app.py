@@ -46,12 +46,7 @@ with ip1:
             t.sleep(2)
         # st.success('Recommendation Generated!')
 with ip2:
-    st.write("Hi all, I'm Rana Karmakar, Currently working with IBM as a Artificial Intelligence Intern.  I made "
-             "this Purely Python Content-Based Recommender System following Cosine Similarity Algorithm. Here You can "
-             "find about 5000 movies from Hollywood. if you "
-             "have any Suggestions "
-             "please "
-             "Fill free to give Feedback  ")
+    st.write(" ")
 
 # movie_name = st.text_input("Enter Any Movie Name : ", value="Avatar")
 find_close_match = difflib.get_close_matches(movie_name, list_of_all_titles)
