@@ -105,22 +105,21 @@ with col5:
 try :
     with col6:
         st.image(image_url[5])
+    n7, n8, n9, n10, n11, n12 = st.columns(6)
+    with n7:
+        st.image(image_url[6])
+    with n8:
+        st.image(image_url[7])
+    with n9:
+        st.image(image_url[6])
+    with n10:
+        st.image(image_url[7])
+    with n11:
+        st.image(image_url[8])
+    with n12:
+        st.image(image_url[9])
 except IndexError:
     st.write("Not Found")
-n7, n8, n9, n10, n11, n12 = st.columns(6)
-with n7:
-    st.image(image_url[6])
-with n8:
-    st.image(image_url[7])
-with n9:
-    st.image(image_url[6])
-with n10:
-    st.image(image_url[7])
-with n11:
-    st.image(image_url[8])
-with n12:
-    st.image(image_url[9])
-
 # Conclusion
 ex1, ex2, ex3 = st.columns(3)
 with ex1:
