@@ -102,9 +102,11 @@ with col4:
     st.image(image_url[3])
 with col5:
     st.image(image_url[4])
-with col6:
+try :
+    with col6:
     st.image(image_url[5])
-
+except IndexError:
+    st.write("Not Found")
 n7, n8, n9, n10, n11, n12 = st.columns(6)
 with n7:
     st.image(image_url[6])
