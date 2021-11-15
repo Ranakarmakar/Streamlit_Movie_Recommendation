@@ -34,7 +34,7 @@ def fetch_poster(movie_id):
 
 # movie_name = input(' Enter your favourite movie name : ')
 list_of_all_titles = df['title'].tolist()
-ip1, ip2,ip3 = st.columns(3)
+ip1, ip2,ip3 = st.columns([2,4,1])
 with ip2:
     movie_name = st.selectbox("Select Your Favorite Movie : ", list_of_all_titles,index=16)
     if not movie_name:
