@@ -35,7 +35,7 @@ def fetch_poster(movie_id):
 # movie_name = input(' Enter your favourite movie name : ')
 list_of_all_titles = df['title'].tolist()
 ip1, ip2 = st.columns(2)
-with ip1:
+with ip2:
     movie_name = st.selectbox("Select Your Favorite Movie : ", list_of_all_titles,index=16)
     if not movie_name:
         st.warning("Please Select any Movie")
@@ -45,8 +45,10 @@ with ip1:
         with st.spinner('Wait for it...'):
             t.sleep(2)
         # st.success('Recommendation Generated!')
-with ip2:
+with ip1:
     st.write(" ")
+with ip3:
+    st.write("")
 
 # movie_name = st.text_input("Enter Any Movie Name : ", value="Avatar")
 find_close_match = difflib.get_close_matches(movie_name, list_of_all_titles)
