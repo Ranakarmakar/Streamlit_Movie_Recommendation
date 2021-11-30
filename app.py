@@ -11,7 +11,6 @@ st.set_page_config(layout="wide",page_title="Movie Recommendation", page_icon=":
 h1, h2, h3 = st.columns([2, 4, 1])
 with h2:
     st.header("Movie Recommendation System")
-    st.caption("Rana Karmakar")
 #st.markdown("Rana Karmakar")
 df = pd.read_csv("movies.csv")
 selected_features = ['genres', 'keywords', 'tagline', 'cast', 'director']
