@@ -151,4 +151,10 @@ with ex3:
 with ex2:
     with st.expander("Contact"):
         st.markdown("ranakarmakar027@gmail.com")
+        st.write("[Website](https://rana-reflective-porcupine-pf.eu-gb.mybluemix.net/)")
+        st.write("[LinkedIn](https://www.linkedin.com/in/rana-karmakar-0972641a6)")
+        st.write("Other Apps[Movie Recommendation System]("
+                 "https://share.streamlit.io/ranakarmakar/streamlit_movie_recommendation/main/app.py)")
+        st.write("Other Apps[Brain Tumor Detection]("
+                 "https://share.streamlit.io/ranakarmakar/brain_tumor_classification/main/tumor.py)")
 
