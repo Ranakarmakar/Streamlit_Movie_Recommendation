@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import requests
 import time as t
 #st.set_option('wideMode' , True)
-st.set_page_config(layout="wide",page_title="Movie Recommendation", page_icon=":Movie")
+st.set_page_config(layout="wide",page_title="Movie Recommendation", page_icon=":movie_camera:")
 
 h1, h2, h3 = st.columns([2, 4, 1])
 with h2:
